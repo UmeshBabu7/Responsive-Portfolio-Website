@@ -7,5 +7,5 @@ class Contact(models.Model):
     content=models.TextField(max_length=400)
     number=models.CharField(max_length=10)
 
-    def __self__(self):
-        return(self.name)
+    def __str__(self):
+        return self.name

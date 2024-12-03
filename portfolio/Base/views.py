@@ -15,6 +15,7 @@ def contact(request):
        number=request.POST.get('number')
        content=request.POST.get('content')
        print(name,email,number,content )
+       
 
        if len(name)>1 and len(name)<30:
            pass
