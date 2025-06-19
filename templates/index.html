@@ -1,0 +1,211 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio website of Umesh Tamang"
+    />
+    <title>Umesh Tamang - IT Student </title>
+    <link
+      rel="icon"
+      href="{% static 'favicon-32x32.png' %}"
+      type="image/png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      href="{% static 'favicon-16x16.png' %}"
+      type="image/png"
+      sizes="16x16"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="{% static 'style.css' %}" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <a href="#" class="logo">UT</a>
+        <button class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <button class="theme-toggle" aria-label="Toggle dark mode">
+            <i class="fas fa-moon"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section id="hero">
+      <div class="hero-container">
+        <img
+          src="{% static 'ut.jpg' %}"
+          alt="profile picture of Umesh Tamang"
+        />
+      </div>
+      <p>Hello, I am</p>
+      <h1>Umesh Tamang</h1>
+      <h2>IT Student</h2>
+      <span>
+        <a href="{% static 'CV.pdf' %}" download class="btn">
+          <i class="fas fa-download"></i> Download CV
+        </a>
+        <a href="#contact" class="btn">
+          <i class="fas fa-envelope"></i> Contact 
+        </a>
+      </span>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+        <div class="common-container">
+          <h4><i class="fas fa-graduation-cap"></i> Education</h4>
+          <p>Bachelor in Computer Application at Kathmandu College of Technology (8th semester)</p>
+        </div>
+      </div>
+      <p>
+        I am passionate about Backend Developer. Continuously expanding my knowledge and skills through
+        self-learning. Let's connect and create innovative solutions together.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="container">
+        <div class="common-container">
+          <h4><i class="fas fa-code"></i> Frontend</h4>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>JavaScript</p>
+          <p>Bootstrap</p>
+        </div>
+        <div class="common-container">
+          <h4><i class="fas fa-server"></i> Backend</h4>
+          <p>Python-Django</p>
+          <p>Django Rest Framework</p>
+          <p>SQL, MySQL</p>
+          <p>Git and Github</p>
+          <p>Postman</p>
+          <p>Insomnia</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="container">
+        <div class="project-container">
+          <h4><i class=""></i>Ecommerce Website</h4>
+          <img
+            class="project-1"
+            src="{% static 'ecommerce.JPG' %}"
+            alt="Project 1"
+          />
+          <span>
+            <a href="https://github.com/UmeshBabu7/Ecommerce-Website.git" target="_blank" class="btn">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://github.com/UmeshBabu7/Ecommerce-Website.git" target="_blank" class="btn">
+              <i class="fas fa-external-link-alt"></i> Demo
+            </a>
+          </span>
+        </div>
+        <div class="project-container">
+          <h4><i class=""></i> BlueCaller</h4>
+          <img
+            class="project-2"
+            src="{% static 'caller.JPG' %}"
+            alt="Project 2"
+          />
+          <span>
+            <a href="https://github.com/UmeshBabu7/blue-caller.git" target="_blank" class="btn">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://github.com/UmeshBabu7/blue-caller.git" target="_blank" class="btn">
+              <i class="fas fa-external-link-alt"></i> Demo
+            </a>
+          </span>
+        </div>
+        <div class="project-container">
+          <h4><i class=""></i> Blog Website</h4>
+          <img
+            class="project-3"
+            src="{% static 'pythons.JPG' %}"
+            alt="Project 3"
+          />
+          <span>
+            <a href="https://github.com/UmeshBabu7/Blog.git" target="_blank" class="btn">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://github.com/UmeshBabu7/Blog.git" target="_blank" class="btn">
+              <i class="fas fa-external-link-alt"></i> Demo
+            </a>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="container">
+        <a href="mailto:umeshtamang129@gmail.com" class="btn" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/umesh-tamang-a44043272/" target="_blank" class="btn" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/UmeshBabu7" target="_blank" class="btn" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; Umesh Tamang 2025. All rights reserved.</p>
+    </footer>
+
+    <script>
+      // Dark mode toggle
+      const themeToggle = document.querySelector('.theme-toggle');
+      const body = document.body;
+      
+      themeToggle.addEventListener('click', () => {
+        body.dataset.theme = body.dataset.theme === 'dark' ? 'light' : 'dark';
+        themeToggle.querySelector('i').classList.toggle('fa-moon');
+        themeToggle.querySelector('i').classList.toggle('fa-sun');
+      });
+
+      // Mobile menu
+      const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+      const navLinks = document.querySelector('.nav-links');
+      
+      mobileMenuBtn.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+        mobileMenuBtn.querySelector('i').classList.toggle('fa-bars');
+        mobileMenuBtn.querySelector('i').classList.toggle('fa-times');
+      });
+
+      // Close mobile menu when clicking a link
+      document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+          navLinks.classList.remove('active');
+          mobileMenuBtn.querySelector('i').classList.add('fa-bars');
+          mobileMenuBtn.querySelector('i').classList.remove('fa-times');
+        });
+      });
+    </script>
+  </body>
+</html>
