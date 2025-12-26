@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website built with Django, showcasing projects, skills, and information. Features a clean design with dark mode support and mobile-friendly navigation.
 
-## 🚀 Features
+## Features
 
 - **Responsive Design**: Fully responsive layout that works seamlessly on desktop, tablet, and mobile devices
 - **Dark Mode Toggle**: Switch between light and dark themes with a single click
@@ -13,7 +13,7 @@ A modern, responsive portfolio website built with Django, showcasing projects, s
 - **CV Download**: Direct download link for your resume/CV
 - **Smooth Navigation**: Smooth scrolling navigation between sections
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Backend**: Django
 - **Database**: SQLite
@@ -22,7 +22,7 @@ A modern, responsive portfolio website built with Django, showcasing projects, s
 - **Fonts**: Google Fonts (Poppins)
 
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Responsive-Portfolio-Website/
